@@ -1,0 +1,9 @@
+This is a simple GMail Clone project which uses is built on MERN Stack.
+
+The project consists of two main folders, the client folder and the server folder. The client folder consists of all the front end part, with which the user will interact whereas the server folder is responsible for managing the database (located on the cloud) and the APIs. The client communicates with the server whenever an access of the database is required (like fetching of data, or inserting the data).
+
+An overview of the server folder: 
+The server folder has multiple folders in it, which are explained one by one here
+    1. database: 
+        a. db.js: This file is responsible for establishing the connection with the database, for which we use a library called mongoose
+    1. Controller: This folder has a file 'email-controller.js'
